@@ -4,7 +4,7 @@
 
 A modular Python autonomy stack for a small IoT rover: sensor ingestion → mapping → A* path planning → stepwise control, with a real-time execution loop.
 
-**Demo video:** [ADD_LINK_HERE]
+**Demo video:** https://drive.google.com/file/d/1A1ERDDEbDh1fQ_9A6YXWXbPJB-Y1tQ_W/view?usp=sharing
 
 ---
 
@@ -12,7 +12,7 @@ A modular Python autonomy stack for a small IoT rover: sensor ingestion → mapp
 - Builds a **2D occupancy grid** from distance sensor scans
 - Plans routes using **A\*** search (grid-based) and re-plans as new obstacles appear
 - Executes the route with a **controller** that converts grid steps into turn/forward actions
-- Includes a lightweight **vision module** (optional) for simple perception behaviors
+- This rover includes a vision module capable of recognizing street signs such as the stop sign.
 
 ---
 
